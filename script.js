@@ -9,7 +9,8 @@ let size,
     pixels,
     context,
     write,
-    grid;
+    grid,
+    ticky;
 
 let playing = false;
 const canvasSize = 600; //размер границ canvas в пикселях canvasSize * canvasSize
@@ -207,15 +208,17 @@ function pause() {
 
 //функция выполнения одной итерации
 function nextTick() {
-  pause();
+  if (playing) {
+    pause()
+  }
   living = calculate();
   currentState++;
   render();
   if (living > 0) {
     generation.textContent = currentState;
-    amountState.textContent = living;
     setWrite();
   } else {
+    pause();
     gameOver();
   }
 }

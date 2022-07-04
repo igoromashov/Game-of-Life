@@ -41,8 +41,8 @@
 </ul>
 
 <h3>Демонстрация работы:</h3>
-<img src="https://github.com/igoromashov/Game-of-Life/blob/master/img/Screenshot_2.png?raw=true" style="wigth: 617px, height: 335px, margin: auto" href="#" />
-<img src="https://github.com/igoromashov/Game-of-Life/blob/master/img/Screenshot_1.png?raw=true" style="wigth: 630px, height: 700px, margin: auto" href="#" />
+<img src="https://github.com/igoromashov/Game-of-Life/blob/master/img/screenshot-2.png?raw=true" style="wigth: 617px, height: 335px, margin: auto" href="#" />
+<img src="https://github.com/igoromashov/Game-of-Life/blob/master/img/screenshot-1.png?raw=true" style="wigth: 630px, height: 700px, margin: auto" href="#" />
   
 <h3>Баги:</h3>
 <ul>

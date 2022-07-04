@@ -239,7 +239,7 @@ function tick() {
 
 //функция конвертации HEX цвета в ABGA шестнадцатиричный формат (integer) для canvas
 function intColor() {
-  colorInput = document.getElementById("colorInput").value.slice(1);
+  const colorInput = document.getElementById("colorInput").value.slice(1);
   return Number(
     "0xFF" +
       colorInput.substring(4, 6) +
